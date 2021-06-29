@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "heavenmod",
+  "version": "${version}",
+
+  "name": "Heaven Mod",
+  "description": "Essa é a descricao do heaven mod",
+  "authors": [
+    "xCUELHO",
+    "VultinBultin",
+    "Guizu902"
+  ],
+  "contact": {
+    "homepage": "https://xcuelho.space/",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/heavenmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "bdc.heaven.mod.HeavenMod"
+    ]
+  },
+  "mixins": [
+    "heavenmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
